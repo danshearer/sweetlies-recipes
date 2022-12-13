@@ -1,11 +1,12 @@
+# Practical Investigation of historical Signal Server Recipes
+
 These are recipes, scripts and configuration files for various versions of
 Signal Server, formerly called TextSecure. Signal Server is a centralised
 service with a number of cluster nodes, and the implementation architecture has
 changed significantly since 2016, when the TextSecure Server was replaced by 
 the first SignalServer code.
 
-All recipes for Signal Server versions later than 4.1 have been attempted and
-compared.
+All recipes for Signal Server versions later than 5.1 have been attempted and compared.
 
 TextSecure Server up to 2.3 Dec 2016  
 Main: Luca Conte   https://github.com/lucaconte/BeatTheMeddler
@@ -39,19 +40,31 @@ https://github.com/amargarido/Setup-Guide
 
 Mahar Prasetio https://github.com/sinholic
 
+https://github.com/on-premise-signal/signal-setup-guide  Discontined. Apr 2019
+
+https://github.com/secure-sign/securesign-setup-guide 2020 Continuation of the foregoing
+
+https://community.signalusers.org/t/guide-deploy-signal-server-v2-xx-cds-sgx/8331  Inspired the foregoing two
+
+#Non-recipes but relevant to Signal Server
 
 https://www.androidcentral.com/apps-software/how-to-set-up-and-run-a-proxy-signal-server  COmments on installing official *proxy*
+
 git clone https://github.com/signalapp/Signal-TLS-Proxy.git Official Signal proxy - hidden inside docker
+
 https://softwaremill.com/what-ive-learned-from-signal-server-source-code/ Polish Review
+
 https://debabhishek.com/writes/Installing-and-Running-TextSecure-Signal-Server-on-Windows 2017 Old but relevant
+
 https://engineering.mindlinksoft.com/end-to-end-encryption-with-the-signal-protocol/  Discussion
+
 https://gitlab.com/dvandam_thesis
 https://gitlab.com/dvandam_thesis/signal-server forked "1.88" version in order to do thesis
+
 https://github.com/dessalines/Messaging-Services-Comparison  Neither on-prem nor private. We try to fix both.
+
 https://github.com/madeindra/signal-setup-guide/tree/master/signal-android  This is for conmpiling the app for a private server
+
 https://medium.com/zengo/mpc-over-signal-977db599de66  as a demo of Secure Multiparty Computing
-https://github.com/on-premise-signal/signal-setup-guide  Discontined. Apr 2019
-https://github.com/secure-sign/securesign-setup-guide 2020 Continuation of the foregoing
-https://community.signalusers.org/t/guide-deploy-signal-server-v2-xx-cds-sgx/8331  Inspired the foregoing two
 
 October 2022 https://github.com/signalapp/Mock-Signal-Server
